@@ -1,0 +1,140 @@
+<!-- Mervyn Phua 
+8500 7635 
+mervynphua9@gmail.com
+-->
+
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="css/navbar.css" rel="stylesheet" />
+  <!-- <link href="css/home.css" rel="stylesheet" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/home.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://kit.fontawesome.com/b07a8739ee.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color:black;">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+  <div class="container">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./aboutMe.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./volunteer.html">Volunteer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./education.html">Education</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="./certifications.html">Certifications</a>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" style="margin-top:7%">
+    <div class="item active">
+      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962056/Hawkr_pr1gwb.jpg" alt="Hawkr" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
+      <div class="carousel-caption" style="padding-bottom:5%;">
+        <h2 style="color:white; font-family:Georgia, 'Times New Roman', Times, serif;">Hawkr</h2>
+        <h3 style="color:white; font-family: Georgia, 'Times New Roman', Times, serif;">2021 - 2021</h3>
+      </div>
+      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first JSP project - A Food delivery E-Commerce website </h2>
+    </div>
+
+    <div class="item">
+      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962118/SP_games_gzhyfu.jpg" alt="Sp Games" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
+      <div class="carousel-caption" style="padding-bottom: 5%;">
+        <h2 style="color:white; font-family:Georgia, 'Times New Roman', Times, serif;">Sp Games</h2>
+        <h3 style="color:white; font-family:Georgia, 'Times New Roman', Times, serif;">2020 - 2021</h3>
+      </div>
+      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first back-end project - A website that intorduces people to online games.</h2>
+    </div>
+
+    <div class="item">
+      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681962057/IT4E_mrt6wq.jpg" alt="IT4E" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
+      <div class="carousel-caption" style="padding-bottom:5%;">
+        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">IT4E</h2>
+        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">2020 - 2020</h3>
+      </div>
+      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first front-end project - A website that introduces users to our IT services.</h2>
+    </div>
+
+    <div class="item">
+      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681964508/c3883b04-bb4e-4158-bf25-de0e02f1e24a_b74beb.jpg" alt="" style="width:60%; height:50%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
+      <div class="carousel-caption" style="padding-bottom:5%;">
+        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">Bookr</h2>
+        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">2021-2021</h3>
+      </div>
+      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My first C# project - A windows form that allows users to book seats for a cinema</h2>
+    </div>
+
+    <div class="item">
+      <img src="https://res.cloudinary.com/dtm6qly1o/image/upload/v1681964383/a611a21c-72b5-4264-819d-b5c6f58e51b2_ndr0ew.jpg" alt="Zeus Property" style="width:70%; height:70%; margin-left:auto; margin-right:auto; border: 2px solid #FFFFFF;">
+      <div class="carousel-caption" style="padding-bottom:5%;">
+        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">Zeus Property</h2>
+        <h3 style="font-family:Georgia, 'Times New Roman', Times, serif; color:black;">2022 - 2022</h3>
+      </div>
+      <h2 style="padding:2%; color:white; font-size:20px; text-align:center; font-family:'Times New Roman', Times, serif;">My Final Year Project - A one-stop platform for users to look for information about the real estate industry</h2>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</body>
+
+
+</html>
+
+

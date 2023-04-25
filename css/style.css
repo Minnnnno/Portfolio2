@@ -1,0 +1,20 @@
+/* Homepage Styling */
+.homepage {
+  background-image: url('https://res.cloudinary.com/dtm6qly1o/image/upload/v1679721945/bball_arhbj0.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage h1 {
+  color: white;
+  font-size: 6rem;
+  text-shadow: 2px 2px #000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
